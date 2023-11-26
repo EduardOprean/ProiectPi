@@ -1,0 +1,68 @@
+#mainAnchorPane, #mainSplitPane, #upperAnchorPane, #lowerAnchorPane, #buttonsPane, #fileSelectPane, #logoPane, #entryPane, #dataPane,#connectPane, #loginPane{
+	-fx-background-color: white;
+}
+
+.menu-bar{
+	-fx-background-color: white;
+}
+
+/*** menu color on hover and focused ***/
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing{
+	-fx-background-color: #236090;
+}
+/*   #f68c2e orange  #236090 blue*/
+.menu-item:focused, .menu-item:hovered {
+    -fx-background-color: #236090;
+}
+
+#entryOk{
+	-fx-background-radius: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #236090;
+}
+
+#connectButton, #openButton, #createButton, #loginButton, #newUserButton, #entryCancel, #connectButton2{ 
+	-fx-background-radius: 0;
+	-fx-background-color: #c7c7c7;
+}
+
+#connectButton:hover, #openButton:hover, #createButton:hover, #loginButton:hover, #newUserButton:hover, #entryOk:hover, #entryCancel:hover, #connectButton2:hover{
+	-fx-background-radius: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #9c9c9c;
+}
+
+#connectButton:focused, #openButton:focused, #createButton:focused, #loginButton:focused, #newUserButton:focused, #entryOk:focused, #entryCancel:focused, #connectButton2:focused{
+	-fx-background-radius: 0;
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #236090;
+}
+
+
+#titleLabel{
+	-fx-font-size: 16pt;
+}
+
+.button{
+	 -fx-background-radius: 0;
+	 -fx-background-color: white;
+}
+.button:hover{
+	-fx-background-color: lightgrey;
+}
+.button:focused{
+	-fx-background-color: #236090;
+}
+
+#tooltip1, #tooltip2, #tooltip3, #tooltip4, #tooltip5, #tooltip6{
+	-fx-background-radius: 1;
+	 -fx-background-color: #236090;
+	 -fx-effect: dropshadow(gaussian, rgba(10, 10, 10, 0.4), 3, 0.5, 2, 2);
+}
+
+.context-menu {
+    -fx-background-color: #F2F2F2;
+    -fx-effect: dropshadow(gaussian, rgba(10, 10, 10, 0.4), 3, 0.5, 2, 2);
+}/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
